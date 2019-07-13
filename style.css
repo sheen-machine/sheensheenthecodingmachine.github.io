@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+	text-align: center;
+	font-family: roboto;
+
+}
+
+
+a {
+	font-family: lato;
+}
+
+#banner a:hover {
+	color: red;
+}
+
+#banner {
+	background-image: url(images/pizza.png);
+	background-size: cover;
+	background-position:center;
+	margin: 0px;
+	margin-bottom: 10px;
+	
+}
+
+.typeform-share button a:hover {
+	color: red;
+}
+
+
+#banner:hover {
+	background-image: url(images/hoverbanner.png);
+}
+
+h1 {
+	font-size: 80px;
+}
+
+img {
+	width: 100%;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: none;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family:opensans-light;
+  font-size: 80px;
+}
+
+ .experiment:hover{
+	color: #26E3CA;
+ }
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+	margin: 100px 100px 100px 100px;
+	
+}
+
+.card:hover {
+	background-color: purple;
+
+}
+
+.card {
+	background-color: pink;
+	padding: 50px;
+	text-align: left;
+	box-shadow: 5px 5px 5px grey;
+	font-size: 24px;
+
+	}
+
+
+ .button {
+  box-shadow:5px 5px 5px grey;
+  background-color: #26E3CA; 
+  border: solid;
+  border-color: black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
+
+ }
+
+ .button:hover {
+ 	background-color: pink;
+ }
